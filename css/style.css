@@ -4,6 +4,7 @@ body {
   background-image: url(../img/sfondo.png);
   background-size: contain;
   background-position: center;
+  line-height: 1, 5;
 }
 
 /* HEADER */
@@ -115,7 +116,6 @@ h2 {
   text-align: center;
 }
 
-
 /* ELEMENTI NEL MAIN - ARTICLE */
 .greybox2 {
   text-align: left;
@@ -130,6 +130,10 @@ h2 {
   padding-top: 20px;
 }
 /* TABELLE */
+caption {
+  color: #000;
+  font-weight: bold;
+}
 table {
   margin: auto;
   width: 100%;
