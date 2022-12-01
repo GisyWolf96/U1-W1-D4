@@ -188,11 +188,11 @@ footer {
 }
 .div-foot {
   width: 450px;
-  height: 150px;
+  height: 200px;
   margin: auto;
   margin-top: 30px;
   opacity: 0.8;
-  background-image: linear-gradient(to top, #2e2727, #313a7c);
+  background-image: linear-gradient(to top, #2e2727, #2798a7);
   box-shadow: -4px 4px 5px #666;
 }
 .foot-text {
