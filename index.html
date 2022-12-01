@@ -6,47 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="stylesheet" href="./css/font-awesome.css" />
     <title>Sviluppo di una pagina web - Blog Epicode</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header>
-      <img src="./img/logo.svg" alt="Logo Epicode" />
+      <img src="./img/logo.svg" alt="Logo Epicode" class="logo" />
       <br />
       <h1>Epicode - Il blog dei developers</h1>
       <nav>
         <h3>
-          <ul>
-            <a href="home.html"><li>Home</li></a>
-            <a href="https://www.lipsum.com/"><li>Articoli</li></a>
-            <a href="Job.html"><li>Job</li></a>
+          <ul class="lista-head">
+            <li>&#8658;<a href="home.html">Home</a>&#8656;</li>
+            <li>
+              &#8658;<a href="https://www.lipsum.com/">Articoli</a>&#8656;
+            </li>
+            <li>&#8658;<a href="Job.html">Job</a>&#8656;</li>
           </ul>
         </h3>
       </nav>
     </header>
     <main>
-        <h2>
-          Come creare un temple per i post</h2> 
-          <p> <i>di Gisell Denis - pubblicato il
-          29-11-2022</i></p>
-        
+      <div class="div-main">
+        <h2>Come creare un temple per i post</h2>
+        <p class="info">
+          <i class="fas fa-pen-square">di Gisell Denis - </i>
+          <i class="fas fa-clock">pubblicato il 29-11-2022</i>
+        </p>
         <p>
-          La prima cosa da fare è suddividere in blocchi la pagina, identificando
-          le parti comuni da applicare a tutte le pagine
+          La prima cosa da fare è suddividere in blocchi la pagina,
+          identificando le parti comuni da applicare a tutte le pagine
         </p>
         <p>Le varie aree saranno sudivise in :</p>
         <ul>
-          <li>Contenuti di intestazione del tag <code>&ltheader&gt</code> </li>
+          <li>Contenuti di intestazione del tag <code>&ltheader&gt</code></li>
           <li>Contenuti centrali variabili del tag <code>&ltmain&gt</code></li>
           <li>
-            Contenuti di fine pagina comuni, da inserire nel tag <code>&ltfooter&gt</code>
+            Contenuti di fine pagina comuni, da inserire nel tag
+            <code>&ltfooter&gt</code>
           </li>
           <li>Formattazione del Codice</li>
         </ul>
         <p>
-          Il testo del Articolo dovrà essere formattato per identificare tutte le
-          parti da selezionare con i CSS. Perciò i passi saranno:
+          Il testo del Articolo dovrà essere formattato per identificare tutte
+          le parti da selezionare con i CSS. Perciò i passi saranno:
         </p>
         <ul>
           <li>
@@ -54,21 +64,21 @@
             appropriato
           </li>
           <li>
-            Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il
-            basso
+            Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso
+            il basso
           </li>
           <li>Applicare gli stili CSS</li>
           <li>
-            L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere
-            la diffusine pressochè totale
+            L'applicazione di stili CSS è cresciuta negli anni fino a
+            raggiungere la diffusine pressochè totale
           </li>
         </ul>
-  
+
         <table title="Diffusione dei CSS">
-          <caption> 
+          <caption>
             Diffusione dei CSS
           </caption>
-  
+
           <tr>
             <th>Anno</th>
             <th>%di utilizzo</th>
@@ -103,8 +113,57 @@
         <p>
           Un test di Validazione potrà essere fatto tramite il
           <a href="#">tool online</a> dedicato allo scopo. Una volta ottimizzato
-          il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri
-          developers come loro:
+          il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei
+          veri developers come loro:
         </p>
+        <iframe
+          width="300"
+          height="300"
+          src="https://www.youtube.com/embed/dvOvHXruEDM"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <hr />
+      <h4>Novità</h4>
+      <p>
+        Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra
+        newsletter:
+      </p>
+
+      <form onsubmit="alert('Iscrizione Eseguita')">
+        <fieldset>
+          <input type="email" placeholder="Inserisci l'email" />
+          <button type="submit">Invia</button>
+        </fieldset>
+      </form>
+
+      <hr />
+
+      <h4>Area Correlati</h4>
+      <div>
+        <a href="validare.html"> <p>Validare il codice HTML</p></a>
+        <p>Categoria: develop</p>
+        <p>Data: 18-9-2022</p>
+        <a href="correggere.html"><p>Correggere la sintassi</p></a>
+        <p>Categoria: develop</p>
+        <p>Data:16-9-2020</p>
+        <a href="meno-kb.html"><p>Meno Kb nella pagina</p></a>
+        <p>Categoria: ottimizzazione</p>
+        <p>Data: 30-9-2020</p>
+      </div>
+    </main>
+
+    <footer>
+      Blog Epicode &copy 2022
+
+      <p>
+        Testata online di Mario Rossi, registrata con prot.n.213/2018 - via
+        Luigi Einaudi 2 - Milano. P.IVA 00112233.
+      </p>
+      <p id="info">info@epicode.school:</p>
+      <a href="mailto: info@epicode.school">Link Email</a>
+    </footer>
   </body>
 </html>
