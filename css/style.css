@@ -48,12 +48,152 @@ main {
   padding-bottom: 30px;
 }
 
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  line-height: 50px;
+}
+.info {
+  color: #969696;
+  margin-bottom: 2px;
+  padding-right: 90px;
+  padding-left: 0;
+}
+
+.link-text1 {
+  text-decoration: none;
+  color: #9c2e70;
+  font-weight: bold;
+}
+.text-main {
+  line-height: 20px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: left;
+}
+.p2 {
+  display: block;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+ul {
+  padding-left: 30px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+ol {
+  padding-left: 30px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.link-text2 {
+  color: #6bb0d3;
+  font-weight: bold;
+}
+iframe {
+  border-radius: 40px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.greybox {
+  text-align: center;
+  padding: 20px;
+  padding-top: 40px;
+  background-color: #ddddde;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
 /* ELEMENTI NEL MAIN - ARTICLE */
-
+.greybox2 {
+  text-align: left;
+  padding: 20px;
+  background-color: #ddddde;
+  margin-bottom: 30px;
+  line-height: 30px;
+  border: 1px solid #d3cece;
+}
+.date {
+  text-align: right;
+  padding-top: 20px;
+}
 /* TABELLE */
+table {
+  margin: auto;
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
+th {
+  border: 1px solid white;
+  padding: 30px;
+  color: white;
+  background-color: #4065c5;
+}
+td {
+  border: 1px solid white;
+  padding: 20px;
+}
+.tr-pari {
+  background-color: #eeeeee;
+  border-bottom: 2px solid #d3cece;
+  border-top: 2px solid #d3cece;
+}
+tfoot {
+  padding: 3px;
+  border-top: 2px solid #4065c5;
+}
 /* FORM */
-
+.iscriviti {
+  background-color: #4065c5;
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 20px;
+}
+input {
+  width: 200px;
+  height: 20px;
+  padding-top: 8px;
+}
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+footer {
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  display: block;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.div-foot {
+  width: 500px;
+  height: 150px;
+  margin: auto;
+  margin-top: 30px;
+  opacity: 0.8;
+  background-image: linear-gradient(to top, #2e2727, #313a7c);
+  box-shadow: -4px 4px 5px #666;
+}
+.foot-text {
+  opacity: 1;
+}
+.foot-link {
+  color: #d9119d;
+  opacity: 1;
+}
