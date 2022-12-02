@@ -2,7 +2,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-image: url(../img/sfondo.png);
-  background-size: contain;
+  background-repeat: repeat ;
   background-position: center;
   line-height: 1, 5;
 }
